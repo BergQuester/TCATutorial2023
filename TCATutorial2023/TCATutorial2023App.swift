@@ -10,9 +10,11 @@ import SwiftUI
 
 @main
 struct TCATutorial2023App: App {
+    static let store = Store(initialState: CounterFeature.State(), reducer: CounterFeature.init)
+
     var body: some Scene {
         WindowGroup {
-            CounterView(store: Store(initialState: CounterFeature.State(), reducer: CounterFeature.init))
+            CounterView(store: TCATutorial2023App.store)
         }
     }
 }
