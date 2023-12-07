@@ -5,13 +5,14 @@
 //  Created by Daniel Bergquist on 12/7/23.
 //
 
+import ComposableArchitecture
 import SwiftUI
 
 @main
 struct TCATutorial2023App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CounterView(store: Store(initialState: CounterFeature.State(), reducer: CounterFeature.init))
         }
     }
 }
