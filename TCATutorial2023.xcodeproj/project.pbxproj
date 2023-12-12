@@ -11,7 +11,7 @@
 		FE8B0FA72B227F7B00B2A2EE /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FA62B227F7B00B2A2EE /* CounterFeature.swift */; };
 		FE8B0FA92B227F8400B2A2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8B0FA82B227F8400B2A2EE /* Assets.xcassets */; };
 		FE8B0FAD2B227F8400B2A2EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8B0FAC2B227F8400B2A2EE /* Preview Assets.xcassets */; };
-		FE8B0FB72B227F8400B2A2EE /* TCATutorial2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FB62B227F8400B2A2EE /* TCATutorial2023Tests.swift */; };
+		FE8B0FB72B227F8400B2A2EE /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FB62B227F8400B2A2EE /* CounterFeatureTests.swift */; };
 		FE8B0FC12B227F8400B2A2EE /* TCATutorial2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FC02B227F8400B2A2EE /* TCATutorial2023UITests.swift */; };
 		FE8B0FC32B227F8400B2A2EE /* TCATutorial2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FC22B227F8400B2A2EE /* TCATutorial2023UITestsLaunchTests.swift */; };
 		FE8B0FD12B2281A500B2A2EE /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FE8B0FD02B2281A500B2A2EE /* ComposableArchitecture */; };
@@ -42,7 +42,7 @@
 		FE8B0FAA2B227F8400B2A2EE /* TCATutorial2023.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCATutorial2023.entitlements; sourceTree = "<group>"; };
 		FE8B0FAC2B227F8400B2A2EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE8B0FB22B227F8400B2A2EE /* TCATutorial2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCATutorial2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE8B0FB62B227F8400B2A2EE /* TCATutorial2023Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATutorial2023Tests.swift; sourceTree = "<group>"; };
+		FE8B0FB62B227F8400B2A2EE /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
 		FE8B0FBC2B227F8400B2A2EE /* TCATutorial2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCATutorial2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8B0FC02B227F8400B2A2EE /* TCATutorial2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATutorial2023UITests.swift; sourceTree = "<group>"; };
 		FE8B0FC22B227F8400B2A2EE /* TCATutorial2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATutorial2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		FE8B0FB52B227F8400B2A2EE /* TCATutorial2023Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FE8B0FB62B227F8400B2A2EE /* TCATutorial2023Tests.swift */,
+				FE8B0FB62B227F8400B2A2EE /* CounterFeatureTests.swift */,
 			);
 			path = TCATutorial2023Tests;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE8B0FB72B227F8400B2A2EE /* TCATutorial2023Tests.swift in Sources */,
+				FE8B0FB72B227F8400B2A2EE /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
