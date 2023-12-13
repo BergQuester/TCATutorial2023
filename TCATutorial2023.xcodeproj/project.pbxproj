@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE45352E2B2A76410048506C /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45352D2B2A76410048506C /* NumberFactClient.swift */; };
 		FE8B0FA52B227F7B00B2A2EE /* TCATutorial2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FA42B227F7B00B2A2EE /* TCATutorial2023App.swift */; };
 		FE8B0FA72B227F7B00B2A2EE /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FA62B227F7B00B2A2EE /* CounterFeature.swift */; };
 		FE8B0FA92B227F8400B2A2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8B0FA82B227F8400B2A2EE /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE45352D2B2A76410048506C /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
 		FE8B0FA12B227F7B00B2A2EE /* TCATutorial2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCATutorial2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8B0FA42B227F7B00B2A2EE /* TCATutorial2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATutorial2023App.swift; sourceTree = "<group>"; };
 		FE8B0FA62B227F7B00B2A2EE /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				FE8B0FA82B227F8400B2A2EE /* Assets.xcassets */,
 				FE8B0FAA2B227F8400B2A2EE /* TCATutorial2023.entitlements */,
 				FE8B0FAB2B227F8400B2A2EE /* Preview Content */,
+				FE45352D2B2A76410048506C /* NumberFactClient.swift */,
 			);
 			path = TCATutorial2023;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE45352E2B2A76410048506C /* NumberFactClient.swift in Sources */,
 				FE8B0FA72B227F7B00B2A2EE /* CounterFeature.swift in Sources */,
 				FE8B0FA52B227F7B00B2A2EE /* TCATutorial2023App.swift in Sources */,
 			);
