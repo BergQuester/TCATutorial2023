@@ -1,13 +1,14 @@
 //
-//  ContentView.swift
+//  ContactsFeature.swift
 //  Navigation
 //
 //  Created by Daniel Bergquist on 12/14/23.
 //
 
 import SwiftUI
+import ComposableArchitecture
 
-struct ContentView: View {
+struct ContactsView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +21,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContactsView()
 }
