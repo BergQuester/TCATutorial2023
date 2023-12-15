@@ -15,6 +15,7 @@
 		FE97C6552B2BC45C00E29210 /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C6542B2BC45C00E29210 /* NavigationUITests.swift */; };
 		FE97C6572B2BC45C00E29210 /* NavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C6562B2BC45C00E29210 /* NavigationUITestsLaunchTests.swift */; };
 		FE97C6652B2BC4B200E29210 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FE97C6642B2BC4B200E29210 /* ComposableArchitecture */; };
+		FE97C6672B2CED8100E29210 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C6662B2CED8100E29210 /* AddContactFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FE97C6502B2BC45C00E29210 /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE97C6542B2BC45C00E29210 /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
 		FE97C6562B2BC45C00E29210 /* NavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE97C6662B2CED8100E29210 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				FE97C6392B2BC45B00E29210 /* NavigationApp.swift */,
 				FE97C63B2B2BC45B00E29210 /* ContactsFeature.swift */,
+				FE97C6662B2CED8100E29210 /* AddContactFeature.swift */,
 				FE97C63D2B2BC45C00E29210 /* Assets.xcassets */,
 				FE97C63F2B2BC45C00E29210 /* Preview Content */,
 			);
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE97C63C2B2BC45B00E29210 /* ContactsFeature.swift in Sources */,
+				FE97C6672B2CED8100E29210 /* AddContactFeature.swift in Sources */,
 				FE97C63A2B2BC45B00E29210 /* NavigationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

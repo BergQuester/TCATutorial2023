@@ -8,7 +8,7 @@
 import SwiftUI
 import ComposableArchitecture
 
-struct Contacts: Equatable, Identifiable {
+struct Contact: Equatable, Identifiable {
     let id: UUID
     var name: String
 }
@@ -16,7 +16,7 @@ struct Contacts: Equatable, Identifiable {
 @Reducer
 struct ContactsFeature {
     struct State: Equatable {
-        var contacts: IdentifiedArrayOf<Contacts> = []
+        var contacts: IdentifiedArrayOf<Contact> = []
     }
     enum Action {
         case addButtonTapped
@@ -63,9 +63,9 @@ struct ContactsView: View {
     ContactsView(store:
                     Store(initialState: ContactsFeature.State(
                         contacts: [
-                            Contacts(id: UUID(), name: "Blob"),
-                            Contacts(id: UUID(), name: "Blob Jr"),
-                            Contacts(id: UUID(), name: "Blob Sr"),
+                            Contact(id: UUID(), name: "Blob"),
+                            Contact(id: UUID(), name: "Blob Jr"),
+                            Contact(id: UUID(), name: "Blob Sr"),
                         ]
                     )) {
                         ContactsFeature()
