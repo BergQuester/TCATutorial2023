@@ -14,7 +14,7 @@ struct AddContactFeature {
         var contact: Contact
     }
 
-    enum Action {
+    enum Action: Equatable {
         case cancelButtonTapped
         case delegate(Delegate)
         case saveButtonTapped
