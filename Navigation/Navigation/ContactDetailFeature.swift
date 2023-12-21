@@ -14,7 +14,7 @@ struct ContactDetailFeature {
         let contact: Contact
     }
 
-    enum Action {
+    enum Action: Equatable {
 
     }
 
