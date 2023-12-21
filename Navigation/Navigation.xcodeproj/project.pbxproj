@@ -16,6 +16,7 @@
 		FE97C6572B2BC45C00E29210 /* NavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C6562B2BC45C00E29210 /* NavigationUITestsLaunchTests.swift */; };
 		FE97C6652B2BC4B200E29210 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FE97C6642B2BC4B200E29210 /* ComposableArchitecture */; };
 		FE97C6672B2CED8100E29210 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C6662B2CED8100E29210 /* AddContactFeature.swift */; };
+		FEF0196A2B34F31000A7CC17 /* ContactDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF019692B34F31000A7CC17 /* ContactDetailFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FE97C6542B2BC45C00E29210 /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
 		FE97C6562B2BC45C00E29210 /* NavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FE97C6662B2CED8100E29210 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
+		FEF019692B34F31000A7CC17 /* ContactDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				FE97C6662B2CED8100E29210 /* AddContactFeature.swift */,
 				FE97C63D2B2BC45C00E29210 /* Assets.xcassets */,
 				FE97C63F2B2BC45C00E29210 /* Preview Content */,
+				FEF019692B34F31000A7CC17 /* ContactDetailFeature.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF0196A2B34F31000A7CC17 /* ContactDetailFeature.swift in Sources */,
 				FE97C63C2B2BC45B00E29210 /* ContactsFeature.swift in Sources */,
 				FE97C6672B2CED8100E29210 /* AddContactFeature.swift in Sources */,
 				FE97C63A2B2BC45B00E29210 /* NavigationApp.swift in Sources */,
