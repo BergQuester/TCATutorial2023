@@ -7,17 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE7D0EF02B36190C00212303 /* ContactsDetailFatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D0EEF2B36190C00212303 /* ContactsDetailFatureTests.swift */; };
+		FE7D0EF92B364FCD00212303 /* ContactsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = FE7D0EF82B364FCD00212303 /* ContactsFeature */; };
 		FE97C63A2B2BC45B00E29210 /* NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C6392B2BC45B00E29210 /* NavigationApp.swift */; };
-		FE97C63C2B2BC45B00E29210 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C63B2B2BC45B00E29210 /* ContactsFeature.swift */; };
 		FE97C63E2B2BC45C00E29210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE97C63D2B2BC45C00E29210 /* Assets.xcassets */; };
 		FE97C6412B2BC45C00E29210 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE97C6402B2BC45C00E29210 /* Preview Assets.xcassets */; };
-		FE97C64B2B2BC45C00E29210 /* ContactsFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C64A2B2BC45C00E29210 /* ContactsFeatureTests.swift */; };
 		FE97C6552B2BC45C00E29210 /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C6542B2BC45C00E29210 /* NavigationUITests.swift */; };
 		FE97C6572B2BC45C00E29210 /* NavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C6562B2BC45C00E29210 /* NavigationUITestsLaunchTests.swift */; };
-		FE97C6652B2BC4B200E29210 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FE97C6642B2BC4B200E29210 /* ComposableArchitecture */; };
-		FE97C6672B2CED8100E29210 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97C6662B2CED8100E29210 /* AddContactFeature.swift */; };
-		FEF0196A2B34F31000A7CC17 /* ContactDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF019692B34F31000A7CC17 /* ContactDetailFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FE7D0EEF2B36190C00212303 /* ContactsDetailFatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetailFatureTests.swift; sourceTree = "<group>"; };
+		FE7D0EF62B364A2B00212303 /* NavigationModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NavigationModule; sourceTree = "<group>"; };
 		FE97C6362B2BC45B00E29210 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE97C6392B2BC45B00E29210 /* NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApp.swift; sourceTree = "<group>"; };
-		FE97C63B2B2BC45B00E29210 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
 		FE97C63D2B2BC45C00E29210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE97C6402B2BC45C00E29210 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE97C6462B2BC45C00E29210 /* NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE97C64A2B2BC45C00E29210 /* ContactsFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeatureTests.swift; sourceTree = "<group>"; };
 		FE97C6502B2BC45C00E29210 /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE97C6542B2BC45C00E29210 /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
 		FE97C6562B2BC45C00E29210 /* NavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FE97C6662B2CED8100E29210 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
-		FEF019692B34F31000A7CC17 /* ContactDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE97C6652B2BC4B200E29210 /* ComposableArchitecture in Frameworks */,
+				FE7D0EF92B364FCD00212303 /* ContactsFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,13 +70,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE7D0EF72B364FCD00212303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE97C62D2B2BC45B00E29210 = {
 			isa = PBXGroup;
 			children = (
+				FE7D0EF62B364A2B00212303 /* NavigationModule */,
 				FE97C6382B2BC45B00E29210 /* Navigation */,
 				FE97C6492B2BC45C00E29210 /* NavigationTests */,
 				FE97C6532B2BC45C00E29210 /* NavigationUITests */,
 				FE97C6372B2BC45B00E29210 /* Products */,
+				FE7D0EF72B364FCD00212303 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				FE97C6392B2BC45B00E29210 /* NavigationApp.swift */,
-				FE97C6662B2CED8100E29210 /* AddContactFeature.swift */,
-				FEF019692B34F31000A7CC17 /* ContactDetailFeature.swift */,
-				FE97C63B2B2BC45B00E29210 /* ContactsFeature.swift */,
 				FE97C63D2B2BC45C00E29210 /* Assets.xcassets */,
 				FE97C63F2B2BC45C00E29210 /* Preview Content */,
 			);
@@ -123,8 +120,6 @@
 		FE97C6492B2BC45C00E29210 /* NavigationTests */ = {
 			isa = PBXGroup;
 			children = (
-				FE97C64A2B2BC45C00E29210 /* ContactsFeatureTests.swift */,
-				FE7D0EEF2B36190C00212303 /* ContactsDetailFatureTests.swift */,
 			);
 			path = NavigationTests;
 			sourceTree = "<group>";
@@ -155,7 +150,7 @@
 			);
 			name = Navigation;
 			packageProductDependencies = (
-				FE97C6642B2BC4B200E29210 /* ComposableArchitecture */,
+				FE7D0EF82B364FCD00212303 /* ContactsFeature */,
 			);
 			productName = Navigation;
 			productReference = FE97C6362B2BC45B00E29210 /* Navigation.app */;
@@ -230,7 +225,6 @@
 			);
 			mainGroup = FE97C62D2B2BC45B00E29210;
 			packageReferences = (
-				FE97C6632B2BC4B200E29210 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = FE97C6372B2BC45B00E29210 /* Products */;
 			projectDirPath = "";
@@ -274,9 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF0196A2B34F31000A7CC17 /* ContactDetailFeature.swift in Sources */,
-				FE97C63C2B2BC45B00E29210 /* ContactsFeature.swift in Sources */,
-				FE97C6672B2CED8100E29210 /* AddContactFeature.swift in Sources */,
 				FE97C63A2B2BC45B00E29210 /* NavigationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,8 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7D0EF02B36190C00212303 /* ContactsDetailFatureTests.swift in Sources */,
-				FE97C64B2B2BC45C00E29210 /* ContactsFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,22 +600,10 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		FE97C6632B2BC4B200E29210 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
-			requirement = {
-				kind = exactVersion;
-				version = 1.5.6;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		FE97C6642B2BC4B200E29210 /* ComposableArchitecture */ = {
+		FE7D0EF82B364FCD00212303 /* ContactsFeature */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FE97C6632B2BC4B200E29210 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
+			productName = ContactsFeature;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

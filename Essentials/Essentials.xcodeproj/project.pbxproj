@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE45352E2B2A76410048506C /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45352D2B2A76410048506C /* NumberFactClient.swift */; };
+		FE7D0EF52B3646E600212303 /* CounterFeature in Frameworks */ = {isa = PBXBuildFile; productRef = FE7D0EF42B3646E600212303 /* CounterFeature */; };
 		FE8B0FA52B227F7B00B2A2EE /* EssentialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FA42B227F7B00B2A2EE /* EssentialsApp.swift */; };
-		FE8B0FA72B227F7B00B2A2EE /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FA62B227F7B00B2A2EE /* CounterFeature.swift */; };
 		FE8B0FA92B227F8400B2A2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8B0FA82B227F8400B2A2EE /* Assets.xcassets */; };
 		FE8B0FAD2B227F8400B2A2EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8B0FAC2B227F8400B2A2EE /* Preview Assets.xcassets */; };
-		FE8B0FB72B227F8400B2A2EE /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FB62B227F8400B2A2EE /* CounterFeatureTests.swift */; };
 		FE8B0FC12B227F8400B2A2EE /* EssentialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FC02B227F8400B2A2EE /* EssentialsUITests.swift */; };
 		FE8B0FC32B227F8400B2A2EE /* EssentialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FC22B227F8400B2A2EE /* EssentialsUITestsLaunchTests.swift */; };
-		FE8B0FD12B2281A500B2A2EE /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FE8B0FD02B2281A500B2A2EE /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FE45352D2B2A76410048506C /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
+		FE7D0EF22B3644DA00212303 /* EssentialsModules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = EssentialsModules; sourceTree = "<group>"; };
 		FE8B0FA12B227F7B00B2A2EE /* Essentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Essentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8B0FA42B227F7B00B2A2EE /* EssentialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsApp.swift; sourceTree = "<group>"; };
-		FE8B0FA62B227F7B00B2A2EE /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		FE8B0FA82B227F8400B2A2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE8B0FAA2B227F8400B2A2EE /* Essentials.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Essentials.entitlements; sourceTree = "<group>"; };
 		FE8B0FAC2B227F8400B2A2EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE8B0FB22B227F8400B2A2EE /* EssentialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE8B0FB62B227F8400B2A2EE /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
 		FE8B0FBC2B227F8400B2A2EE /* EssentialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8B0FC02B227F8400B2A2EE /* EssentialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsUITests.swift; sourceTree = "<group>"; };
 		FE8B0FC22B227F8400B2A2EE /* EssentialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -56,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE8B0FD12B2281A500B2A2EE /* ComposableArchitecture in Frameworks */,
+				FE7D0EF52B3646E600212303 /* CounterFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,13 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE7D0EF32B3646E600212303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE8B0F982B227F7B00B2A2EE = {
 			isa = PBXGroup;
 			children = (
+				FE7D0EF22B3644DA00212303 /* EssentialsModules */,
 				FE8B0FA32B227F7B00B2A2EE /* Essentials */,
 				FE8B0FB52B227F8400B2A2EE /* EssentialsTests */,
 				FE8B0FBF2B227F8400B2A2EE /* EssentialsUITests */,
 				FE8B0FA22B227F7B00B2A2EE /* Products */,
+				FE7D0EF32B3646E600212303 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,11 +106,9 @@
 			children = (
 				FE8B0FD22B22896300B2A2EE /* Info.plist */,
 				FE8B0FA42B227F7B00B2A2EE /* EssentialsApp.swift */,
-				FE8B0FA62B227F7B00B2A2EE /* CounterFeature.swift */,
 				FE8B0FA82B227F8400B2A2EE /* Assets.xcassets */,
 				FE8B0FAA2B227F8400B2A2EE /* Essentials.entitlements */,
 				FE8B0FAB2B227F8400B2A2EE /* Preview Content */,
-				FE45352D2B2A76410048506C /* NumberFactClient.swift */,
 			);
 			path = Essentials;
 			sourceTree = "<group>";
@@ -122,7 +124,6 @@
 		FE8B0FB52B227F8400B2A2EE /* EssentialsTests */ = {
 			isa = PBXGroup;
 			children = (
-				FE8B0FB62B227F8400B2A2EE /* CounterFeatureTests.swift */,
 			);
 			path = EssentialsTests;
 			sourceTree = "<group>";
@@ -153,7 +154,7 @@
 			);
 			name = Essentials;
 			packageProductDependencies = (
-				FE8B0FD02B2281A500B2A2EE /* ComposableArchitecture */,
+				FE7D0EF42B3646E600212303 /* CounterFeature */,
 			);
 			productName = Essentials;
 			productReference = FE8B0FA12B227F7B00B2A2EE /* Essentials.app */;
@@ -228,7 +229,6 @@
 			);
 			mainGroup = FE8B0F982B227F7B00B2A2EE;
 			packageReferences = (
-				FE8B0FCF2B2281A500B2A2EE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = FE8B0FA22B227F7B00B2A2EE /* Products */;
 			projectDirPath = "";
@@ -272,8 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE45352E2B2A76410048506C /* NumberFactClient.swift in Sources */,
-				FE8B0FA72B227F7B00B2A2EE /* CounterFeature.swift in Sources */,
 				FE8B0FA52B227F7B00B2A2EE /* EssentialsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE8B0FB72B227F8400B2A2EE /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,22 +639,10 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		FE8B0FCF2B2281A500B2A2EE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.5.6;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		FE8B0FD02B2281A500B2A2EE /* ComposableArchitecture */ = {
+		FE7D0EF42B3646E600212303 /* CounterFeature */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FE8B0FCF2B2281A500B2A2EE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
+			productName = CounterFeature;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

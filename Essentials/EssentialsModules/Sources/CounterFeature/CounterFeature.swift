@@ -7,17 +7,25 @@
 
 import ComposableArchitecture
 import SwiftUI
+import NumberFactClient
 
 @Reducer
-struct CounterFeature {
-    struct State: Equatable {
+public struct CounterFeature {
+    public struct State: Equatable {
         var count = 0
         var fact: String?
         var isLoading = false
         var isTimerRunning = false
+
+        public init(count: Int = 0, fact: String? = nil, isLoading: Bool = false, isTimerRunning: Bool = false) {
+            self.count = count
+            self.fact = fact
+            self.isLoading = isLoading
+            self.isTimerRunning = isTimerRunning
+        }
     }
 
-    enum Action {
+    public enum Action {
         case decrementButtonTapped
         case factButtonTapped
         case factResponse(String)
@@ -33,7 +41,9 @@ struct CounterFeature {
     @Dependency(\.continuousClock) var clock
     @Dependency(\.numberFact) var numberFact
 
-    var body: some ReducerOf<Self> {
+    public init() { }
+
+    public var body: some ReducerOf<Self> {
         Reduce { state, action in
             switch action {
             case .decrementButtonTapped:
@@ -79,10 +89,14 @@ struct CounterFeature {
     }
 }
 
-struct CounterView: View {
+public struct CounterView: View {
     let store: StoreOf<CounterFeature>
 
-    var body: some View {
+    public init(store: StoreOf<CounterFeature>) {
+        self.store = store
+    }
+
+    public var body: some View {
         WithViewStore(store, observe: { $0 }) { viewStore in
             VStack {
                 Text("\(viewStore.count)")

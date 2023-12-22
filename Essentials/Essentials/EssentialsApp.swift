@@ -8,6 +8,8 @@
 import ComposableArchitecture
 import SwiftUI
 
+import CounterFeature
+
 @main
 struct EssentialsApp: App {
     static let store = Store(initialState: CounterFeature.State(), reducer: CounterFeature.init)

@@ -8,6 +8,9 @@
 import SwiftUI
 import ComposableArchitecture
 
+import Models
+import ContactsFeature
+
 @main
 struct NavigationApp: App {
     var body: some Scene {
