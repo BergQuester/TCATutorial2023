@@ -1,13 +1,13 @@
 ////
-////  TCATutorial2023UITestsLaunchTests.swift
-////  TCATutorial2023UITests
+////  EssentialsUITestsLaunchTests.swift
+////  EssentialsUITests
 ////
 ////  Created by Daniel Bergquist on 12/7/23.
 ////
 //
 //import XCTest
 //
-//final class TCATutorial2023UITestsLaunchTests: XCTestCase {
+//final class EssentialsUITestsLaunchTests: XCTestCase {
 //
 //    override class var runsForEachTargetApplicationUIConfiguration: Bool {
 //        true

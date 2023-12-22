@@ -1,13 +1,13 @@
 ////
-////  TCATutorial2023UITests.swift
-////  TCATutorial2023UITests
+////  EssentialsUITests.swift
+////  EssentialsUITests
 ////
 ////  Created by Daniel Bergquist on 12/7/23.
 ////
 //
 //import XCTest
 //
-//final class TCATutorial2023UITests: XCTestCase {
+//final class EssentialsUITests: XCTestCase {
 //
 //    override func setUpWithError() throws {
 //        // Put setup code here. This method is called before the invocation of each test method in the class.

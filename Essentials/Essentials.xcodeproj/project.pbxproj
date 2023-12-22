@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		FE45352E2B2A76410048506C /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45352D2B2A76410048506C /* NumberFactClient.swift */; };
-		FE8B0FA52B227F7B00B2A2EE /* TCATutorial2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FA42B227F7B00B2A2EE /* TCATutorial2023App.swift */; };
+		FE8B0FA52B227F7B00B2A2EE /* EssentialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FA42B227F7B00B2A2EE /* EssentialsApp.swift */; };
 		FE8B0FA72B227F7B00B2A2EE /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FA62B227F7B00B2A2EE /* CounterFeature.swift */; };
 		FE8B0FA92B227F8400B2A2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8B0FA82B227F8400B2A2EE /* Assets.xcassets */; };
 		FE8B0FAD2B227F8400B2A2EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8B0FAC2B227F8400B2A2EE /* Preview Assets.xcassets */; };
 		FE8B0FB72B227F8400B2A2EE /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FB62B227F8400B2A2EE /* CounterFeatureTests.swift */; };
-		FE8B0FC12B227F8400B2A2EE /* TCATutorial2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FC02B227F8400B2A2EE /* TCATutorial2023UITests.swift */; };
-		FE8B0FC32B227F8400B2A2EE /* TCATutorial2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FC22B227F8400B2A2EE /* TCATutorial2023UITestsLaunchTests.swift */; };
+		FE8B0FC12B227F8400B2A2EE /* EssentialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FC02B227F8400B2A2EE /* EssentialsUITests.swift */; };
+		FE8B0FC32B227F8400B2A2EE /* EssentialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B0FC22B227F8400B2A2EE /* EssentialsUITestsLaunchTests.swift */; };
 		FE8B0FD12B2281A500B2A2EE /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FE8B0FD02B2281A500B2A2EE /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
@@ -24,30 +24,30 @@
 			containerPortal = FE8B0F992B227F7B00B2A2EE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FE8B0FA02B227F7B00B2A2EE;
-			remoteInfo = TCATutorial2023;
+			remoteInfo = Essentials;
 		};
 		FE8B0FBD2B227F8400B2A2EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FE8B0F992B227F7B00B2A2EE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FE8B0FA02B227F7B00B2A2EE;
-			remoteInfo = TCATutorial2023;
+			remoteInfo = Essentials;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FE45352D2B2A76410048506C /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
-		FE8B0FA12B227F7B00B2A2EE /* TCATutorial2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCATutorial2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE8B0FA42B227F7B00B2A2EE /* TCATutorial2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATutorial2023App.swift; sourceTree = "<group>"; };
+		FE8B0FA12B227F7B00B2A2EE /* Essentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Essentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8B0FA42B227F7B00B2A2EE /* EssentialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsApp.swift; sourceTree = "<group>"; };
 		FE8B0FA62B227F7B00B2A2EE /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		FE8B0FA82B227F8400B2A2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE8B0FAA2B227F8400B2A2EE /* TCATutorial2023.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCATutorial2023.entitlements; sourceTree = "<group>"; };
+		FE8B0FAA2B227F8400B2A2EE /* Essentials.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Essentials.entitlements; sourceTree = "<group>"; };
 		FE8B0FAC2B227F8400B2A2EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FE8B0FB22B227F8400B2A2EE /* TCATutorial2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCATutorial2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8B0FB22B227F8400B2A2EE /* EssentialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8B0FB62B227F8400B2A2EE /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
-		FE8B0FBC2B227F8400B2A2EE /* TCATutorial2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCATutorial2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE8B0FC02B227F8400B2A2EE /* TCATutorial2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATutorial2023UITests.swift; sourceTree = "<group>"; };
-		FE8B0FC22B227F8400B2A2EE /* TCATutorial2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATutorial2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE8B0FBC2B227F8400B2A2EE /* EssentialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8B0FC02B227F8400B2A2EE /* EssentialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsUITests.swift; sourceTree = "<group>"; };
+		FE8B0FC22B227F8400B2A2EE /* EssentialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FE8B0FD22B22896300B2A2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,9 +80,9 @@
 		FE8B0F982B227F7B00B2A2EE = {
 			isa = PBXGroup;
 			children = (
-				FE8B0FA32B227F7B00B2A2EE /* TCATutorial2023 */,
-				FE8B0FB52B227F8400B2A2EE /* TCATutorial2023Tests */,
-				FE8B0FBF2B227F8400B2A2EE /* TCATutorial2023UITests */,
+				FE8B0FA32B227F7B00B2A2EE /* Essentials */,
+				FE8B0FB52B227F8400B2A2EE /* EssentialsTests */,
+				FE8B0FBF2B227F8400B2A2EE /* EssentialsUITests */,
 				FE8B0FA22B227F7B00B2A2EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,25 +90,25 @@
 		FE8B0FA22B227F7B00B2A2EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE8B0FA12B227F7B00B2A2EE /* TCATutorial2023.app */,
-				FE8B0FB22B227F8400B2A2EE /* TCATutorial2023Tests.xctest */,
-				FE8B0FBC2B227F8400B2A2EE /* TCATutorial2023UITests.xctest */,
+				FE8B0FA12B227F7B00B2A2EE /* Essentials.app */,
+				FE8B0FB22B227F8400B2A2EE /* EssentialsTests.xctest */,
+				FE8B0FBC2B227F8400B2A2EE /* EssentialsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE8B0FA32B227F7B00B2A2EE /* TCATutorial2023 */ = {
+		FE8B0FA32B227F7B00B2A2EE /* Essentials */ = {
 			isa = PBXGroup;
 			children = (
 				FE8B0FD22B22896300B2A2EE /* Info.plist */,
-				FE8B0FA42B227F7B00B2A2EE /* TCATutorial2023App.swift */,
+				FE8B0FA42B227F7B00B2A2EE /* EssentialsApp.swift */,
 				FE8B0FA62B227F7B00B2A2EE /* CounterFeature.swift */,
 				FE8B0FA82B227F8400B2A2EE /* Assets.xcassets */,
-				FE8B0FAA2B227F8400B2A2EE /* TCATutorial2023.entitlements */,
+				FE8B0FAA2B227F8400B2A2EE /* Essentials.entitlements */,
 				FE8B0FAB2B227F8400B2A2EE /* Preview Content */,
 				FE45352D2B2A76410048506C /* NumberFactClient.swift */,
 			);
-			path = TCATutorial2023;
+			path = Essentials;
 			sourceTree = "<group>";
 		};
 		FE8B0FAB2B227F8400B2A2EE /* Preview Content */ = {
@@ -119,29 +119,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FE8B0FB52B227F8400B2A2EE /* TCATutorial2023Tests */ = {
+		FE8B0FB52B227F8400B2A2EE /* EssentialsTests */ = {
 			isa = PBXGroup;
 			children = (
 				FE8B0FB62B227F8400B2A2EE /* CounterFeatureTests.swift */,
 			);
-			path = TCATutorial2023Tests;
+			path = EssentialsTests;
 			sourceTree = "<group>";
 		};
-		FE8B0FBF2B227F8400B2A2EE /* TCATutorial2023UITests */ = {
+		FE8B0FBF2B227F8400B2A2EE /* EssentialsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FE8B0FC02B227F8400B2A2EE /* TCATutorial2023UITests.swift */,
-				FE8B0FC22B227F8400B2A2EE /* TCATutorial2023UITestsLaunchTests.swift */,
+				FE8B0FC02B227F8400B2A2EE /* EssentialsUITests.swift */,
+				FE8B0FC22B227F8400B2A2EE /* EssentialsUITestsLaunchTests.swift */,
 			);
-			path = TCATutorial2023UITests;
+			path = EssentialsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE8B0FA02B227F7B00B2A2EE /* TCATutorial2023 */ = {
+		FE8B0FA02B227F7B00B2A2EE /* Essentials */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE8B0FC62B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "TCATutorial2023" */;
+			buildConfigurationList = FE8B0FC62B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "Essentials" */;
 			buildPhases = (
 				FE8B0F9D2B227F7B00B2A2EE /* Sources */,
 				FE8B0F9E2B227F7B00B2A2EE /* Frameworks */,
@@ -151,17 +151,17 @@
 			);
 			dependencies = (
 			);
-			name = TCATutorial2023;
+			name = Essentials;
 			packageProductDependencies = (
 				FE8B0FD02B2281A500B2A2EE /* ComposableArchitecture */,
 			);
-			productName = TCATutorial2023;
-			productReference = FE8B0FA12B227F7B00B2A2EE /* TCATutorial2023.app */;
+			productName = Essentials;
+			productReference = FE8B0FA12B227F7B00B2A2EE /* Essentials.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FE8B0FB12B227F8400B2A2EE /* TCATutorial2023Tests */ = {
+		FE8B0FB12B227F8400B2A2EE /* EssentialsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE8B0FC92B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "TCATutorial2023Tests" */;
+			buildConfigurationList = FE8B0FC92B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "EssentialsTests" */;
 			buildPhases = (
 				FE8B0FAE2B227F8400B2A2EE /* Sources */,
 				FE8B0FAF2B227F8400B2A2EE /* Frameworks */,
@@ -172,14 +172,14 @@
 			dependencies = (
 				FE8B0FB42B227F8400B2A2EE /* PBXTargetDependency */,
 			);
-			name = TCATutorial2023Tests;
-			productName = TCATutorial2023Tests;
-			productReference = FE8B0FB22B227F8400B2A2EE /* TCATutorial2023Tests.xctest */;
+			name = EssentialsTests;
+			productName = EssentialsTests;
+			productReference = FE8B0FB22B227F8400B2A2EE /* EssentialsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FE8B0FBB2B227F8400B2A2EE /* TCATutorial2023UITests */ = {
+		FE8B0FBB2B227F8400B2A2EE /* EssentialsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE8B0FCC2B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "TCATutorial2023UITests" */;
+			buildConfigurationList = FE8B0FCC2B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "EssentialsUITests" */;
 			buildPhases = (
 				FE8B0FB82B227F8400B2A2EE /* Sources */,
 				FE8B0FB92B227F8400B2A2EE /* Frameworks */,
@@ -190,9 +190,9 @@
 			dependencies = (
 				FE8B0FBE2B227F8400B2A2EE /* PBXTargetDependency */,
 			);
-			name = TCATutorial2023UITests;
-			productName = TCATutorial2023UITests;
-			productReference = FE8B0FBC2B227F8400B2A2EE /* TCATutorial2023UITests.xctest */;
+			name = EssentialsUITests;
+			productName = EssentialsUITests;
+			productReference = FE8B0FBC2B227F8400B2A2EE /* EssentialsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FE8B0F9C2B227F7B00B2A2EE /* Build configuration list for PBXProject "TCATutorial2023" */;
+			buildConfigurationList = FE8B0F9C2B227F7B00B2A2EE /* Build configuration list for PBXProject "Essentials" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE8B0FA02B227F7B00B2A2EE /* TCATutorial2023 */,
-				FE8B0FB12B227F8400B2A2EE /* TCATutorial2023Tests */,
-				FE8B0FBB2B227F8400B2A2EE /* TCATutorial2023UITests */,
+				FE8B0FA02B227F7B00B2A2EE /* Essentials */,
+				FE8B0FB12B227F8400B2A2EE /* EssentialsTests */,
+				FE8B0FBB2B227F8400B2A2EE /* EssentialsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +274,7 @@
 			files = (
 				FE45352E2B2A76410048506C /* NumberFactClient.swift in Sources */,
 				FE8B0FA72B227F7B00B2A2EE /* CounterFeature.swift in Sources */,
-				FE8B0FA52B227F7B00B2A2EE /* TCATutorial2023App.swift in Sources */,
+				FE8B0FA52B227F7B00B2A2EE /* EssentialsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE8B0FC32B227F8400B2A2EE /* TCATutorial2023UITestsLaunchTests.swift in Sources */,
-				FE8B0FC12B227F8400B2A2EE /* TCATutorial2023UITests.swift in Sources */,
+				FE8B0FC32B227F8400B2A2EE /* EssentialsUITestsLaunchTests.swift in Sources */,
+				FE8B0FC12B227F8400B2A2EE /* EssentialsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		FE8B0FB42B227F8400B2A2EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FE8B0FA02B227F7B00B2A2EE /* TCATutorial2023 */;
+			target = FE8B0FA02B227F7B00B2A2EE /* Essentials */;
 			targetProxy = FE8B0FB32B227F8400B2A2EE /* PBXContainerItemProxy */;
 		};
 		FE8B0FBE2B227F8400B2A2EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FE8B0FA02B227F7B00B2A2EE /* TCATutorial2023 */;
+			target = FE8B0FA02B227F7B00B2A2EE /* Essentials */;
 			targetProxy = FE8B0FBD2B227F8400B2A2EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -432,16 +432,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TCATutorial2023/TCATutorial2023.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Essentials/Essentials.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"TCATutorial2023/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Essentials/Preview Content\"";
 				DEVELOPMENT_TEAM = 7LSUEYG3GC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TCATutorial2023/Info.plist;
+				INFOPLIST_FILE = Essentials/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,7 +457,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.TCATutorial2023;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.Essentials;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -472,16 +472,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TCATutorial2023/TCATutorial2023.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Essentials/Essentials.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"TCATutorial2023/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Essentials/Preview Content\"";
 				DEVELOPMENT_TEAM = 7LSUEYG3GC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TCATutorial2023/Info.plist;
+				INFOPLIST_FILE = Essentials/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -497,7 +497,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.TCATutorial2023;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.Essentials;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -520,14 +520,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.TCATutorial2023Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.EssentialsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCATutorial2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCATutorial2023";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Essentials.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Essentials";
 			};
 			name = Debug;
 		};
@@ -544,14 +544,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.TCATutorial2023Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.EssentialsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCATutorial2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCATutorial2023";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Essentials.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Essentials";
 			};
 			name = Release;
 		};
@@ -567,14 +567,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.TCATutorial2023UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.EssentialsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TCATutorial2023;
+				TEST_TARGET_NAME = Essentials;
 			};
 			name = Debug;
 		};
@@ -590,21 +590,21 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.TCATutorial2023UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergquester.EssentialsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TCATutorial2023;
+				TEST_TARGET_NAME = Essentials;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE8B0F9C2B227F7B00B2A2EE /* Build configuration list for PBXProject "TCATutorial2023" */ = {
+		FE8B0F9C2B227F7B00B2A2EE /* Build configuration list for PBXProject "Essentials" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE8B0FC42B227F8400B2A2EE /* Debug */,
@@ -613,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE8B0FC62B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "TCATutorial2023" */ = {
+		FE8B0FC62B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "Essentials" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE8B0FC72B227F8400B2A2EE /* Debug */,
@@ -622,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE8B0FC92B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "TCATutorial2023Tests" */ = {
+		FE8B0FC92B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "EssentialsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE8B0FCA2B227F8400B2A2EE /* Debug */,
@@ -631,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE8B0FCC2B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "TCATutorial2023UITests" */ = {
+		FE8B0FCC2B227F8400B2A2EE /* Build configuration list for PBXNativeTarget "EssentialsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE8B0FCD2B227F8400B2A2EE /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FE8B0FA02B227F7B00B2A2EE"
-               BuildableName = "TCATutorial2023.app"
-               BlueprintName = "TCATutorial2023"
-               ReferencedContainer = "container:TCATutorial2023.xcodeproj">
+               BuildableName = "Essentials.app"
+               BlueprintName = "Essentials"
+               ReferencedContainer = "container:Essentials.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FE8B0FB12B227F8400B2A2EE"
-               BuildableName = "TCATutorial2023Tests.xctest"
-               BlueprintName = "TCATutorial2023Tests"
-               ReferencedContainer = "container:TCATutorial2023.xcodeproj">
+               BuildableName = "EssentialsTests.xctest"
+               BlueprintName = "EssentialsTests"
+               ReferencedContainer = "container:Essentials.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,9 +46,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FE8B0FBB2B227F8400B2A2EE"
-               BuildableName = "TCATutorial2023UITests.xctest"
-               BlueprintName = "TCATutorial2023UITests"
-               ReferencedContainer = "container:TCATutorial2023.xcodeproj">
+               BuildableName = "EssentialsUITests.xctest"
+               BlueprintName = "EssentialsUITests"
+               ReferencedContainer = "container:Essentials.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE8B0FA02B227F7B00B2A2EE"
-            BuildableName = "TCATutorial2023.app"
-            BlueprintName = "TCATutorial2023"
-            ReferencedContainer = "container:TCATutorial2023.xcodeproj">
+            BuildableName = "Essentials.app"
+            BlueprintName = "Essentials"
+            ReferencedContainer = "container:Essentials.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE8B0FA02B227F7B00B2A2EE"
-            BuildableName = "TCATutorial2023.app"
-            BlueprintName = "TCATutorial2023"
-            ReferencedContainer = "container:TCATutorial2023.xcodeproj">
+            BuildableName = "Essentials.app"
+            BlueprintName = "Essentials"
+            ReferencedContainer = "container:Essentials.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
