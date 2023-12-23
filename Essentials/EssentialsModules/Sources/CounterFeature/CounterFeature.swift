@@ -11,6 +11,7 @@ import NumberFactClient
 
 @Reducer
 public struct CounterFeature {
+    @ObservableState
     public struct State: Equatable {
         var count = 0
         var fact: String?
@@ -97,55 +98,53 @@ public struct CounterView: View {
     }
 
     public var body: some View {
-        WithViewStore(store, observe: { $0 }) { viewStore in
-            VStack {
-                Text("\(viewStore.count)")
-                    .font(.largeTitle)
-                    .padding()
-                    .background(Color.black.opacity(0.1))
-                    .cornerRadius(10)
+        VStack {
+            Text("\(store.count)")
+                .font(.largeTitle)
+                .padding()
+                .background(Color.black.opacity(0.1))
+                .cornerRadius(10)
 
-                HStack {
-                    Button("-") {
-                        viewStore.send(.decrementButtonTapped)
-                    }
-                    .font(.largeTitle)
-                    .padding()
-                    .background(Color.black.opacity(0.1))
-                    .cornerRadius(10)
-
-                    Button("+") {
-                        viewStore.send(.incrementButtonTapped)
-                    }
-                    .font(.largeTitle)
-                    .padding()
-                    .background(Color.black.opacity(0.1))
-                    .cornerRadius(10)
-                }
-                Button(viewStore.isTimerRunning ? "Stop timer" : "Start timer") {
-                    viewStore.send(.toggleTimerButtonTapped)
+            HStack {
+                Button("-") {
+                    store.send(.decrementButtonTapped)
                 }
                 .font(.largeTitle)
                 .padding()
                 .background(Color.black.opacity(0.1))
                 .cornerRadius(10)
 
-                Button("Fact") {
-                    viewStore.send(.factButtonTapped)
+                Button("+") {
+                    store.send(.incrementButtonTapped)
                 }
                 .font(.largeTitle)
                 .padding()
                 .background(Color.black.opacity(0.1))
                 .cornerRadius(10)
+            }
+            Button(store.isTimerRunning ? "Stop timer" : "Start timer") {
+                store.send(.toggleTimerButtonTapped)
+            }
+            .font(.largeTitle)
+            .padding()
+            .background(Color.black.opacity(0.1))
+            .cornerRadius(10)
 
-                if viewStore.isLoading {
-                    ProgressView()
-                } else if let fact = viewStore.fact {
-                    Text(fact)
-                        .font(.largeTitle)
-                        .multilineTextAlignment(.center)
-                        .padding()
-                }
+            Button("Fact") {
+                store.send(.factButtonTapped)
+            }
+            .font(.largeTitle)
+            .padding()
+            .background(Color.black.opacity(0.1))
+            .cornerRadius(10)
+
+            if store.isLoading {
+                ProgressView()
+            } else if let fact = store.fact {
+                Text(fact)
+                    .font(.largeTitle)
+                    .multilineTextAlignment(.center)
+                    .padding()
             }
         }
     }
