@@ -11,8 +11,9 @@ import Models
 
 @Reducer
 public struct ContactDetailFeature {
+    @ObservableState
     public struct State: Equatable {
-        @PresentationState var alert: AlertState<Action.Alert>?
+        @Presents var alert: AlertState<Action.Alert>?
         public let contact: Contact
 
         public init(alert: AlertState<Action.Alert>? = nil, contact: Contact) {
@@ -78,14 +79,12 @@ public struct ContactDetailView: View {
     }
 
     public var body: some View {
-        WithViewStore(store, observe: { $0 }) { viewStore in
-            Form {
-                Button("Delete") {
-                    viewStore.send(.deleteButtonTapped)
-                }
+        Form {
+            Button("Delete") {
+                store.send(.deleteButtonTapped)
             }
-            .navigationBarTitle(Text(viewStore.contact.name))
         }
+        .navigationBarTitle(Text(store.contact.name))
         .alert(store: store.scope(state: \.$alert, action: \.alert))
     }
 }

@@ -12,6 +12,7 @@ import Models
 
 @Reducer
 public struct AddContactFeature {
+    @ObservableState
     public struct State: Equatable {
         public var contact: Contact
 
@@ -59,25 +60,23 @@ public struct AddContactFeature {
 }
 
 public struct AddContactView: View {
-    let store: StoreOf<AddContactFeature>
+    @Bindable var store: StoreOf<AddContactFeature>
 
     public init(store: StoreOf<AddContactFeature>) {
         self.store = store
     }
 
     public var body: some View {
-        WithViewStore(store, observe: { $0}) { viewStore in
-            Form {
-                TextField("Name", text: viewStore.binding(get: \.contact.name, send: { .setName($0) }))
-                Button("Save") {
-                    viewStore.send(.saveButtonTapped)
-                }
+        Form(content: {
+            TextField("Name", text: $store.contact.name.sending(\.setName))
+            Button("Save") {
+                store.send(.saveButtonTapped)
             }
-            .toolbar {
-                ToolbarItem {
-                    Button("Cancel") {
-                        viewStore.send(.cancelButtonTapped)
-                    }
+        })
+        .toolbar {
+            ToolbarItem {
+                Button("Cancel") {
+                    store.send(.cancelButtonTapped)
                 }
             }
         }

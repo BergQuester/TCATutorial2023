@@ -14,9 +14,10 @@ import ContactDetailFeature
 
 @Reducer
 public struct ContactsFeature {
+    @ObservableState
     public struct State: Equatable {
         var contacts: IdentifiedArrayOf<Contact> = []
-        @PresentationState var destination: Destination.State?
+        @Presents var destination: Destination.State?
         var path = StackState<ContactDetailFeature.State>()
 
         public init(contacts: IdentifiedArrayOf<Contact> = [], destination: Destination.State? = nil, path: StackState<ContactDetailFeature.State> = StackState<ContactDetailFeature.State>()) {
@@ -119,40 +120,38 @@ extension AlertState where Action == ContactsFeature.Action.Alert {
 }
 
 public struct ContactsView: View {
-    let store: StoreOf<ContactsFeature>
+    @Bindable var store: StoreOf<ContactsFeature>
 
     public init(store: StoreOf<ContactsFeature>) {
         self.store = store
     }
 
     public var body: some View {
-        NavigationStackStore(store.scope(state: \.path, action: \.path)) {
-            WithViewStore(store, observe: \.contacts) { viewStore in
-                List {
-                    ForEach(viewStore.state) { contact in
-                        NavigationLink(state: ContactDetailFeature.State(contact: contact)) {
-                            HStack {
-                                Text(contact.name)
-                                Spacer()
-                                Button {
-                                    viewStore.send(.deleteButtonTapped(id: contact.id))
-                                } label: {
-                                    Image(systemName: "trash")
-                                        .foregroundColor(.red)
-                                }
+        NavigationStack(path: $store.scope(state: \.path, action: \.path)) {
+            List {
+                ForEach(store.state.contacts) { contact in
+                    NavigationLink(state: ContactDetailFeature.State(contact: contact)) {
+                        HStack {
+                            Text(contact.name)
+                            Spacer()
+                            Button {
+                                store.send(.deleteButtonTapped(id: contact.id))
+                            } label: {
+                                Image(systemName: "trash")
+                                    .foregroundColor(.red)
                             }
                         }
-                        .buttonStyle(.borderless)
                     }
+                    .buttonStyle(.borderless)
                 }
-                .navigationTitle("Contacts")
-                .toolbar {
-                    ToolbarItem {
-                        Button {
-                            viewStore.send(.addButtonTapped)
-                        } label: {
-                            Image(systemName: "plus")
-                        }
+            }
+            .navigationTitle("Contacts")
+            .toolbar {
+                ToolbarItem {
+                    Button {
+                        store.send(.addButtonTapped)
+                    } label: {
+                        Image(systemName: "plus")
                     }
                 }
             }
