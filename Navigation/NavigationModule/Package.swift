@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "ContactsFeature", targets: ["ContactsFeature"])
     ],
     dependencies: [
-        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", branch: "observation-beta"),
+        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", exact: "1.7.0"),
     ],
     targets: [
         .target(

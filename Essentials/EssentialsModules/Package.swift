@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "NumberFactClient", targets: ["NumberFactClient"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", branch: "observation-beta"),
+        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", exact: "1.7.0"),
     ],
     targets: [
         .target(
